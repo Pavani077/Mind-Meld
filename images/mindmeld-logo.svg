@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Brain icon with gradient -->
+  <defs>
+    <linearGradient id="brain-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Brain shape -->
+  <path d="M50,10 C30,10 15,25 15,45 C15,55 20,65 30,70 C25,75 25,85 30,90 C35,95 45,95 50,90 C55,95 65,95 70,90 C75,85 75,75 70,70 C80,65 85,55 85,45 C85,25 70,10 50,10 Z" fill="url(#brain-gradient)" />
+  
+  <!-- Connection lines representing collaboration -->
+  <path d="M30,40 L70,40" stroke="white" stroke-width="2" stroke-dasharray="4" />
+  <path d="M30,50 L70,50" stroke="white" stroke-width="2" stroke-dasharray="4" />
+  <path d="M30,60 L70,60" stroke="white" stroke-width="2" stroke-dasharray="4" />
+  
+  <!-- Nodes representing users -->
+  <circle cx="30" cy="40" r="3" fill="white" />
+  <circle cx="70" cy="40" r="3" fill="white" />
+  <circle cx="30" cy="50" r="3" fill="white" />
+  <circle cx="70" cy="50" r="3" fill="white" />
+  <circle cx="30" cy="60" r="3" fill="white" />
+  <circle cx="70" cy="60" r="3" fill="white" />
+</svg>

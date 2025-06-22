@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" rx="10" fill="#f8fafc"/>
+  
+  <!-- Final document -->
+  <rect x="75" y="40" width="150" height="120" rx="5" fill="white" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- Document content -->
+  <line x1="90" y1="60" x2="210" y2="60" stroke="#6366f1" stroke-width="2"/>
+  <line x1="90" y1="80" x2="210" y2="80" stroke="#6366f1" stroke-width="2"/>
+  <line x1="90" y1="100" x2="210" y2="100" stroke="#6366f1" stroke-width="2"/>
+  <line x1="90" y1="120" x2="210" y2="120" stroke="#6366f1" stroke-width="2"/>
+  <line x1="90" y1="140" x2="210" y2="140" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- Users around document -->
+  <!-- User 1 -->
+  <circle cx="50" cy="80" r="20" fill="#e0e7ff"/>
+  <circle cx="50" cy="70" r="8" fill="#f8fafc"/>
+  <path d="M45,85 C47,90 53,90 55,85" fill="#e0e7ff"/>
+  
+  <!-- User 2 -->
+  <circle cx="50" cy="140" r="20" fill="#dcfce7"/>
+  <circle cx="50" cy="130" r="8" fill="#f8fafc"/>
+  <path d="M45,145 C47,150 53,150 55,145" fill="#dcfce7"/>
+  
+  <!-- User 3 -->
+  <circle cx="250" cy="80" r="20" fill="#fef3c7"/>
+  <circle cx="250" cy="70" r="8" fill="#f8fafc"/>
+  <path d="M245,85 C247,90 253,90 255,85" fill="#fef3c7"/>
+  
+  <!-- User 4 -->
+  <circle cx="250" cy="140" r="20" fill="#fee2e2"/>
+  <circle cx="250" cy="130" r="8" fill="#f8fafc"/>
+  <path d="M245,145 C247,150 253,150 255,145" fill="#fee2e2"/>
+  
+  <!-- Collaboration indicators -->
+  <path d="M70,80 L90,90" stroke="#6366f1" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M70,140 L90,120" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M230,80 L210,90" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M230,140 L210,120" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- AI icon in center -->
+  <circle cx="150" cy="100" r="15" fill="#6366f1" opacity="0.2"/>
+  <path d="M145,95 L155,95 M145,100 L155,100 M145,105 L155,105" stroke="#6366f1" stroke-width="2"/>
+</svg>

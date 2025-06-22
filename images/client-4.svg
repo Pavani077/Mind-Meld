@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <!-- Company logo: DataFlow -->
+  <rect x="10" y="15" width="20" height="10" rx="5" fill="#ef4444"/>
+  <circle cx="15" cy="20" r="3" fill="white"/>
+  <circle cx="25" cy="20" r="3" fill="white"/>
+  <text x="40" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#1e293b">DataFlow</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" rx="10" fill="#f8fafc"/>
+  
+  <!-- Central workspace -->
+  <rect x="100" y="60" width="100" height="80" rx="5" fill="white" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- Workspace title -->
+  <text x="150" y="85" font-family="Arial" font-size="12" text-anchor="middle" fill="#6366f1">MindMeld Workspace</text>
+  
+  <!-- Users connecting to workspace -->
+  <!-- User 1 -->
+  <circle cx="50" cy="70" r="20" fill="#e0e7ff"/>
+  <circle cx="50" cy="60" r="8" fill="#f8fafc"/>
+  <path d="M45,75 C47,80 53,80 55,75" fill="#e0e7ff"/>
+  <path d="M70,70 L100,80" stroke="#6366f1" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- User 2 -->
+  <circle cx="50" cy="130" r="20" fill="#dcfce7"/>
+  <circle cx="50" cy="120" r="8" fill="#f8fafc"/>
+  <path d="M45,135 C47,140 53,140 55,135" fill="#dcfce7"/>
+  <path d="M70,130 L100,120" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- User 3 -->
+  <circle cx="250" cy="70" r="20" fill="#fef3c7"/>
+  <circle cx="250" cy="60" r="8" fill="#f8fafc"/>
+  <path d="M245,75 C247,80 253,80 255,75" fill="#fef3c7"/>
+  <path d="M230,70 L200,80" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- User 4 -->
+  <circle cx="250" cy="130" r="20" fill="#fee2e2"/>
+  <circle cx="250" cy="120" r="8" fill="#f8fafc"/>
+  <path d="M245,135 C247,140 253,140 255,135" fill="#fee2e2"/>
+  <path d="M230,130 L200,120" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- Link icon -->
+  <circle cx="150" y="160" r="15" fill="#6366f1" opacity="0.2"/>
+  <path d="M143,160 L157,160 M150,153 L150,167" stroke="#6366f1" stroke-width="2"/>
+</svg>

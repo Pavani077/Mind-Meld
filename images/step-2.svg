@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" rx="10" fill="#f8fafc"/>
+  
+  <!-- Central workspace -->
+  <rect x="75" y="40" width="150" height="120" rx="5" fill="white" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- User contributions -->
+  <!-- User 1 contribution -->
+  <rect x="90" y="60" width="120" height="20" rx="3" fill="#e0e7ff" opacity="0.7"/>
+  <text x="100" y="74" font-family="Arial" font-size="10" fill="#4f46e5">User 1's idea...</text>
+  
+  <!-- User 2 contribution -->
+  <rect x="90" y="90" width="120" height="20" rx="3" fill="#dcfce7" opacity="0.7"/>
+  <text x="100" y="104" font-family="Arial" font-size="10" fill="#059669">User 2's code...</text>
+  
+  <!-- User 3 contribution -->
+  <rect x="90" y="120" width="120" height="20" rx="3" fill="#fef3c7" opacity="0.7"/>
+  <text x="100" y="134" font-family="Arial" font-size="10" fill="#d97706">User 3's design...</text>
+  
+  <!-- Users around workspace -->
+  <!-- User 1 -->
+  <circle cx="40" cy="60" r="15" fill="#e0e7ff"/>
+  <circle cx="40" cy="53" r="6" fill="#f8fafc"/>
+  <path d="M36,63 C38,67 42,67 44,63" fill="#e0e7ff"/>
+  <path d="M55,60 L90,70" stroke="#6366f1" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- User 2 -->
+  <circle cx="40" cy="100" r="15" fill="#dcfce7"/>
+  <circle cx="40" cy="93" r="6" fill="#f8fafc"/>
+  <path d="M36,103 C38,107 42,107 44,103" fill="#dcfce7"/>
+  <path d="M55,100 L90,100" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- User 3 -->
+  <circle cx="40" cy="140" r="15" fill="#fef3c7"/>
+  <circle cx="40" cy="133" r="6" fill="#f8fafc"/>
+  <path d="M36,143 C38,147 42,147 44,143" fill="#fef3c7"/>
+  <path d="M55,140 L90,130" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- Typing indicators -->
+  <circle cx="220" y="70" r="2" fill="#4f46e5"/>
+  <circle cx="225" y="70" r="2" fill="#4f46e5"/>
+  <circle cx="230" y="70" r="2" fill="#4f46e5"/>
+  
+  <circle cx="220" y="100" r="2" fill="#059669"/>
+  <circle cx="225" y="100" r="2" fill="#059669"/>
+  <circle cx="230" y="100" r="2" fill="#059669"/>
+  
+  <circle cx="220" y="130" r="2" fill="#d97706"/>
+  <circle cx="225" y="130" r="2" fill="#d97706"/>
+  <circle cx="230" y="130" r="2" fill="#d97706"/>
+</svg>

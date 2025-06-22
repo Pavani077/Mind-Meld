@@ -1,0 +1,5 @@
+<svg width="150" height="50" viewBox="0 0 150 50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="150" height="50" fill="none"/>
+  <text x="75" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">ACME CORP</text>
+  <path d="M30,25 L40,15 L50,25 L40,35 Z" fill="#4285f4"/>
+</svg>

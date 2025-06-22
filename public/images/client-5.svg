@@ -1,0 +1,6 @@
+<svg width="150" height="50" viewBox="0 0 150 50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="150" height="50" fill="none"/>
+  <text x="75" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">NEXUSAI</text>
+  <polygon points="30,15 40,15 45,25 40,35 30,35 25,25" fill="#4a86e8"/>
+  <circle cx="35" cy="25" r="5" fill="white"/>
+</svg>

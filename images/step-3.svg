@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" rx="10" fill="#f8fafc"/>
+  
+  <!-- Input contributions -->
+  <rect x="40" y="40" width="100" height="25" rx="3" fill="#e0e7ff" opacity="0.7"/>
+  <text x="50" y="57" font-family="Arial" font-size="10" fill="#4f46e5">User 1's idea...</text>
+  
+  <rect x="40" y="75" width="100" height="25" rx="3" fill="#dcfce7" opacity="0.7"/>
+  <text x="50" y="92" font-family="Arial" font-size="10" fill="#059669">User 2's code...</text>
+  
+  <rect x="40" y="110" width="100" height="25" rx="3" fill="#fef3c7" opacity="0.7"/>
+  <text x="50" y="127" font-family="Arial" font-size="10" fill="#d97706">User 3's design...</text>
+  
+  <rect x="40" y="145" width="100" height="25" rx="3" fill="#fee2e2" opacity="0.7"/>
+  <text x="50" y="162" font-family="Arial" font-size="10" fill="#dc2626">User 4's data...</text>
+  
+  <!-- AI processing in the middle -->
+  <circle cx="150" cy="100" r="30" fill="#6366f1" opacity="0.2"/>
+  <path d="M135,90 L165,90 M135,100 L165,100 M135,110 L165,110" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- Arrows pointing to AI -->
+  <path d="M140,52 L130,80" stroke="#4f46e5" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M140,87 L130,95" stroke="#059669" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M140,122 L130,110" stroke="#d97706" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M140,157 L130,120" stroke="#dc2626" stroke-width="2" stroke-dasharray="4"/>
+  
+  <!-- Output document -->
+  <rect x="190" y="60" width="80" height="80" rx="5" fill="white" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- Document content lines -->
+  <line x1="200" y1="75" x2="260" y2="75" stroke="#6366f1" stroke-width="1"/>
+  <line x1="200" y1="85" x2="260" y2="85" stroke="#6366f1" stroke-width="1"/>
+  <line x1="200" y1="95" x2="260" y2="95" stroke="#6366f1" stroke-width="1"/>
+  <line x1="200" y1="105" x2="260" y2="105" stroke="#6366f1" stroke-width="1"/>
+  <line x1="200" y1="115" x2="260" y2="115" stroke="#6366f1" stroke-width="1"/>
+  <line x1="200" y1="125" x2="260" y2="125" stroke="#6366f1" stroke-width="1"/>
+  
+  <!-- Arrow from AI to output -->
+  <path d="M180,100 L190,100" stroke="#6366f1" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6366f1" />
+    </marker>
+  </defs>
+</svg>
